@@ -22,7 +22,7 @@ public class miventana extends JFrame
  JLabel label;
  JTextField text;
  JButton boton;
- JCheckBox verificación;
+ JCheckBox verificacion;
  JRadioButton presionar;
  
  
@@ -34,7 +34,7 @@ panel = new JPanel();//Creo un objeto tipo JPanel
 label = new JLabel();
 text = new JTextField(10);//10 es la cant de caracteres
 boton = new JButton();
-verificación= new JCheckBox();
+verificacion = new JCheckBox();
 presionar = new JRadioButton();
 
 //PASO 6 - AGREGAR LOS ELEMENTOS AL JFRAME
@@ -42,12 +42,13 @@ this.add(panel);//Recomendable agregar el JPanel al JFrame
 panel.add(label);
 panel.add(text);
 panel.add(boton);
-panel.add((verificación)
-panel.add(presionar)
+panel.add(verificacion);
+panel.add(presionar);
         
 //PASO 7 - PROPIEDADES DE LOS OBJETOS
 label.setText("Nombre");
 boton.setText("Enviar");
-panel.setBackground(Color.red);//Color de fondo de JPanel
+panel.setBackground(Color.yellow);//Color de fondo de JPanel
     
+}
 }
