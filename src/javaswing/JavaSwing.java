@@ -26,7 +26,7 @@ public class JavaSwing
         ventana.setVisible(true);
         ventana.setBounds(0, 0, 500, 500);
         //La siguiente inst. le pone titulo a la ventana
-        ventana.setTitle("Mi primera aplicacion con ventana");
+        ventana.setTitle("Mi primer interfaz grafica");
         //La siguiente sentencia es para finalizar el proyecto al cerrar la ventana
         ventana.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
